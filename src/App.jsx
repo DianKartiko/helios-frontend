@@ -1,12 +1,10 @@
-import './App.css'
-
+import './styles/App.css'
+import Button from './components/navBar.jsx'
 function App() {
 
   return (
     <>
-  <h1 class="text-3xl font-semibold text-center text-sky-500 py-5">
-    Hello world!
-  </h1>
+    <Button />
     </>
   )
 }
