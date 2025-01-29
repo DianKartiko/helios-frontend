@@ -1,10 +1,10 @@
 import './styles/App.css'
-import Button from './components/navBar.jsx'
+import HomeSection from './components/pages/homePage.jsx'
 function App() {
 
   return (
     <>
-    <Button />
+    <HomeSection />
     </>
   )
 }
